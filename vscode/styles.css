@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@200;400;500&family=Rubik:wght@400;500;600;700&display=swap");
+
+/* * {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  background-image: url("snow.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.counttimer {
+  display: flex;
+}
+
+.timer {
+  margin: 0 1rem;
+}
+
+.timer span {
+  font-size: 3rem;
+}
